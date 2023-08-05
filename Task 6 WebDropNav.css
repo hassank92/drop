@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Images/foodie2.png);
+}
+#content{
+background-color: rgb(199, 23, 82);
+}
+#nav{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#nav li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: white;
+}
+#menu1{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    background-color: black;
+}
+#drop1:hover #menu1{
+     display: block;
+}
+#menu2{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    background-color: black;
+}
+#drop2:hover #menu2{
+    display: block;
+}
+#nav li a:hover{
+color: black;
+background-color: rgb(218, 232, 28);
+}
